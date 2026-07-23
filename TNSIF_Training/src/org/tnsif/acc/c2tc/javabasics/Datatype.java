@@ -1,7 +1,7 @@
 package org.tnsif.acc.c2tc.javabasics;
 
 public class Datatype {
-	
+
 		public static void main(String[] args) {
 			
 			//Primitive datatype
@@ -21,6 +21,23 @@ public class Datatype {
 			String CustomerName="Anajli";
 			String[] foodItem= {"Burger" , "Fries","Coke"};
 			
+			
+			System.out.println("Order Summary");
+			System.out.println("Customer Name :"+CustomerName);
+			System.out.println("Order Id :"+orderId);
+			System.out.println("RestaurantID :"+restaurantId);
+			System.out.println("Delivery Boy Contact :"+deliveryBoyPhone);
+			System.out.println("Food items :");
+			for (String item : foodItem)
+			{
+				System.out.println(" - "+ item);
+			}
+			
+			System.out.println("Total Price :"+price);
+			System.out.println("DeliveryDistance :"+deliveryDistance);
+			System.out.println("Expcted Time :"+deliverTime);
+			System.out.println("Delivery status :"+isDelivered);
+			System.out.println("Rating :"+ rating);
 			
 		}
 
