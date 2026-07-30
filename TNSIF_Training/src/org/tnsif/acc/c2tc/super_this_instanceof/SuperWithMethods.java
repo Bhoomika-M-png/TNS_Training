@@ -1,4 +1,4 @@
-package org.tnsif.acc.c2tc.super_this;
+package org.tnsif.acc.c2tc.super_this_instanceof;
 
 class Payment1 
 {
