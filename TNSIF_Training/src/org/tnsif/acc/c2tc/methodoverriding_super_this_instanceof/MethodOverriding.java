@@ -1,4 +1,4 @@
-package org.tnsif.acc.c2tc.oops;
+package org.tnsif.acc.c2tc.methodoverriding_super_this_instanceof;
 
 class Payment{
 	void makePayment() {
