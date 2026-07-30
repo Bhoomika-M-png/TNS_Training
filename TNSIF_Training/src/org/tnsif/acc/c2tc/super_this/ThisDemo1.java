@@ -1,4 +1,4 @@
-package org.tnsif.acc.c2tc.oops;
+package org.tnsif.acc.c2tc.super_this;
 
 class Person
 {
