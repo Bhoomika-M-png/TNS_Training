@@ -20,7 +20,7 @@ class WalletPayment extends Payment{
 		System.out.println("payment is done via wallet");
 	}
 }
-public class MethodOverloadingIn {
+public class MethodOverriding {
 
 	public static void main(String[] args) {
 		Payment payment;//reference parent class
@@ -37,3 +37,4 @@ public class MethodOverloadingIn {
 	}
 
 }
+
