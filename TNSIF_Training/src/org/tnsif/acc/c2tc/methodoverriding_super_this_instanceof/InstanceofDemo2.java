@@ -23,14 +23,16 @@ public class InstanceofDemo2 {
 	public static void main(String[] args) {
 		
 		PaymentMethod payment=new PaymentMethod();
-		payment =new CreditCard();
+		
+		payment =new PayPal();//Dynamic Type Checking
+		
 		if (payment instanceof CreditCard) {
-			CreditCard cc=(CreditCard)payment;
+			CreditCard cc=(CreditCard)payment;//upcasting conv payment tp creditcard
 			cc.swipeCard();
 		}
 		else if(payment instanceof PayPal)
 		{
-			PayPal pp =(PayPal)payment;
+			PayPal pp =(PayPal)payment;//upcasting conv payment paypal
 			pp.loginToPayPal();
 		}
 
