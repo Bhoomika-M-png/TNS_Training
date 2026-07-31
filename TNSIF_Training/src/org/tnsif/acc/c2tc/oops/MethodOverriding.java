@@ -1,4 +1,4 @@
-package org.tnsif.acc.c2tc.methodoverriding_super_this_instanceof;
+package org.tnsif.acc.c2tc.oops;
 
 class Payment{
 	void makePayment() {
@@ -25,13 +25,13 @@ public class MethodOverriding {
 	public static void main(String[] args) {
 		Payment payment;//reference parent class
 		
-		payment=new UpiPayment();
+		payment=new UpiPayment();//runtime polymorphism
 		payment.makePayment();
 		
-		payment=new CardPayment();
+		payment=new CardPayment();//runtime polymorphism
 		payment.makePayment();
 		
-		payment=new WalletPayment();
+		payment=new WalletPayment();//runtime polymorphism
 		payment.makePayment();	
 
 	}
