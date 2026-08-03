@@ -22,9 +22,6 @@ public class ConstructorOverloading {
 		Student1 obj1=new Student1();
 		Student1 obj2=new Student1("Vysh");
 		Student1 obj3=new Student1("Bhoomi",21);
-		
-	 
-
 	}
 
 }
