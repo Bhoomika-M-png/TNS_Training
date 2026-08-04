@@ -7,8 +7,10 @@ public class ScannerClassDemo1 {
 		Scanner scan= new Scanner(System.in);
 		System.out.println("Enter your name");
 		String name=scan.nextLine();
+		
 		System.out.println("Enter your age");
 		int age=scan.nextInt();
+		
 		System.out.println("Name of the user: "+name);
 		System.out.println("Age of the user: "+age);
 		scan.close();
