@@ -25,6 +25,7 @@ public class ScannerClassDemo2 {
 		
 		System.out.println("Enter Adhar Number");
 		long adhar=s.nextLong();
+		s.nextLine();
 		
 		System.out.println("Enter CGPA ");
 		double cgpa=s.nextDouble();
@@ -34,15 +35,15 @@ public class ScannerClassDemo2 {
 		
 		
 		
-		System.out.println("The name is "+name);
-		System.out.println("The Teacher name is "+Teachername);
-		System.out.println("The Age is "+age);
-		System.out.println("The Marks is"+marks);
-		System.out.println("The second String is "+c);
-		System.out.println("Condition is "+stu);
-		System.out.println("Your adhar number is "+adhar);
-		System.out.println(" your CGPA is "+cgpa);
-		System.out.println("The number of siblings are "+siblings);
+		System.out.println("The name is : "+name);
+		System.out.println("The Teacher name is : "+Teachername);
+		System.out.println("The Age is : "+age);
+		System.out.println("The Marks is : "+marks);
+		System.out.println("The second String is : "+c);
+		System.out.println("Condition is : "+stu);
+		System.out.println("Your adhar number is : "+adhar);
+		System.out.println(" your CGPA is : "+cgpa);
+		System.out.println("The number of siblings are : "+siblings);
 		
 		
 		s.close();
