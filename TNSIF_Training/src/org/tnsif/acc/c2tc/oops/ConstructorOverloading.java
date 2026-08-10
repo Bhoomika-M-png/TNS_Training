@@ -19,9 +19,9 @@ class Student1{
 public class ConstructorOverloading {
 
 	public static void main(String[] args) {
-		Student1 obj1=new Student1();
-		Student1 obj2=new Student1("Vysh");
-		Student1 obj3=new Student1("Bhoomi",21);
+		Student1 ob1=new Student1();
+		Student1 ob2=new Student1("Vysh");
+		Student1 ob3=new Student1("Bhoomi",21);
 	}
 
 }

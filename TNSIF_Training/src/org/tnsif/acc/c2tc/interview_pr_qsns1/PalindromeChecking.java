@@ -1,11 +1,12 @@
 package org.tnsif.acc.c2tc.interview_pr_qsns1;
 import java.util.Scanner;
 
+
 public class PalindromeChecking {
 
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		int n = sc.nextInt();
+		Scanner scan = new Scanner(System.in);
+		int n = scan.nextInt();
 		
 		int rev=0, temp=n;
 		
